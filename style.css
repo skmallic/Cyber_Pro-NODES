@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+header h1 {
+    float: left;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.showcase {
+    min-height: 400px;
+    background: url('https://example.com/minecraft-bg.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #fff;
+}
+.showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+.showcase p {
+    font-size: 20px;
+}
+.showcase button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #77aaff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.features {
+    padding: 20px 0;
+    background: #fff;
+    text-align: center;
+}
+.features h2 {
+    margin-bottom: 20px;
+}
+.feature {
+    margin-bottom: 20px;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
